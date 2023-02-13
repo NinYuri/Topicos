@@ -65,6 +65,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton2.setBorder(null);
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
+        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 460, 210, -1));
 
         jButton1.setBackground(new java.awt.Color(85, 110, 230));
@@ -73,6 +74,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton1.setText("Iniciar Sesión");
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.setBorderPainted(false);
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 390, 390, 40));
 
         jCheckBox1.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
